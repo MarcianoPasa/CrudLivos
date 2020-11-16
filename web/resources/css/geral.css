@@ -1,0 +1,76 @@
+form {
+    margin: 0px 40px 0px 40px;
+}
+
+table {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+tr {
+    display: table-row;
+    line-height: 50px;    
+}
+
+td {    
+    padding: 0px 12px 0px 12px;    
+}
+
+label {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 0px;
+}
+
+.labelTitulo {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.inputTexto {
+    font-size: 20px;
+    width: 100%;
+    padding: 12px 5px;
+    margin: 0px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+.inputData {
+    font-size: 20px;
+    width: 50%;
+    padding: 12px 5px;
+    margin: 0px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+.botaoAtualizar {    
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.botaoSalvar, .botaoNovo {    
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.botaoCancelar, .botaoExcluir {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
