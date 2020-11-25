@@ -4,13 +4,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO8859-1">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
         
-        <link href="resources/css/geral.css" rel="stylesheet" type="text/css" />        
+        <link href="resources/css/geral.css" rel="stylesheet" type="text/css"/>
         
         <title>Cadastro de livro</title>
     </head>
     <body>        
-        <form method="POST" action='LivroController' name="formLivro">
+        <form method="POST" action='LivroController' name="formLivro" class="formGeral">
             <label class="labelTitulo">Cadastro de livro</label>
             <br />
             
@@ -22,8 +23,7 @@
                        readonly="readonly" 
                        name="id"                    
                        value="<c:out value="${livro.id}" />" 
-                       class="inputTexto"
-                       style="width: 50%;"/> 
+                       class="inputTexto50" /> 
             </c:if>
             
             <br /> 

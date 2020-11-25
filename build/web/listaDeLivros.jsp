@@ -5,13 +5,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO8859-1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
         
-        <link href="resources/css/geral.css" rel="stylesheet" type="text/css" />
+        <link href="resources/css/geral.css" rel="stylesheet" type="text/css"/>
         
         <title>Livros</title>
     </head>
     <body>
-        <form name="formLivros">
+        <form name="formLivros" class="formGeral">
             <label class="labelTitulo">Livros</label>
             <br />
             
@@ -23,14 +24,14 @@
                        onclick="location.=''; return true;"/>                                        
             </a>
             
-            <table border=1>
+            <table border=1 class="bordered striped centered highlight responsive-table">
                 <thead>
                     <tr>
-                        <th style="width: 150px;">Código</th>
-                        <th style="width: 300px;">Nome</th>
-                        <th style="width: 300px;">Autos</th>
-                        <th style="width: 150px; text-align: center">Lançamento</th>                
-                        <th colspan=2>Ações</th>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>Autos</th>
+                        <th>Lançamento</th>                
+                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,9 +53,7 @@
                                            class="botaoAtualizar"
                                            onclick="location.=''; return true;"/>                                        
                                 </a>                                
-                            </td>
                             
-                            <td>
                                 <a href="LivroController?action=apagar&id=<c:out value="${livro.id}"/>">
                                     <input type="button" 
                                            value="Excluir" 

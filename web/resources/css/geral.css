@@ -1,27 +1,14 @@
-form {
-    margin: 0px 40px 0px 40px;
+* {
+    
 }
 
-table {
-    font-family: 'Roboto Medium', sans-serif;
-    font-size: 20px;
-    border-collapse: collapse;
-}
-
-tr {
-    display: table-row;
-    line-height: 50px;    
-}
-
-td {    
-    padding: 0px 12px 0px 12px;    
+.formGeral {    
+    margin-right: 40px !important;    
+    margin-left: 40px !important;
 }
 
 label {
-    font-family: 'Roboto Medium', sans-serif;
-    font-size: 20px;
-    color: black;
-    padding: 0px;
+    font-family: 'Roboto Medium', sans-serif;    
 }
 
 .labelTitulo {
@@ -40,9 +27,13 @@ label {
     box-sizing: border-box;
 }
 
+.inputTexto50 {    
+    width: 50% !important;    
+}
+
 .inputData {
     font-size: 20px;
-    width: 50%;
+    width: 30% !important;
     padding: 12px 5px;
     margin: 0px 0px 10px 0px;
     box-sizing: border-box;
@@ -51,16 +42,25 @@ label {
 .botaoAtualizar {    
     width: 100px;
     height: 40px;
-    background-color: blue;
+    background-color: #0073e6;
     color: white;
     margin: 5px;
     border-radius: 10px;
 }
 
-.botaoSalvar, .botaoNovo {    
+.botaoNovo {    
     width: 100px;
     height: 40px;
-    background-color: green;
+    background-color: #00cc99;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.botaoSalvar     {    
+    width: 100px;
+    height: 40px;
+    background-color: #00e64d;
     color: white;
     margin: 5px;
     border-radius: 10px;
@@ -69,7 +69,7 @@ label {
 .botaoCancelar, .botaoExcluir {
     width: 100px;
     height: 40px;
-    background-color: red;
+    background-color: #ff1a1a;
     color: white;
     margin: 5px;
     border-radius: 10px;
